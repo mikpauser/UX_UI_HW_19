@@ -45,6 +45,7 @@ header li {
   justify-content: center;
   color: #ffe6e6;
   margin-right: 0px;
+  cursor: pointer;
 }
 
 .heroImg {
@@ -145,6 +146,7 @@ button {
   letter-spacing: 2px;
   border-radius: 200px;
   border: 1px white;
+  cursor: pointer;
 }
 
 button:hover, button:focus {
@@ -350,6 +352,7 @@ footer li {
   justify-content: center;
   color: #ffe6e6;
   margin: 0 auto;
+  cursor: pointer;
 }
 }
 
@@ -396,6 +399,7 @@ footer li {
       align-items: center;
       justify-content: center;
       color: #ffe6e6;
+      cursor: pointer;
     }
 
     .heroImg {
@@ -500,6 +504,7 @@ button {
   letter-spacing: 2px;
   border-radius: 200px;
   border: 1px white;
+  cursor: pointer;
 }
 
 button:hover, button:focus {
@@ -717,6 +722,7 @@ footer li {
   justify-content: center;
   color: #ffe6e6;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 }
@@ -746,6 +752,8 @@ footer li {
     padding: 1%;
     text-align: center;
   }
+
+  
   nav {
     width: 80%;
     padding: 3%;
@@ -766,6 +774,7 @@ footer li {
       align-items: center;
       justify-content: center;
       color: #ffe6e6;
+      cursor: pointer;
     }
 
     .heroImg {
@@ -868,10 +877,12 @@ button {
   letter-spacing: 2px;
   border-radius: 200px;
   border: 1px white;
+  cursor: pointer;
 }
 
 button:hover, button:focus {
   background-color: var(--blue);
+  cursor: pointer;
 }
 
 /* My UX Skills section coded using CSS flex */
@@ -1085,6 +1096,7 @@ footer li {
   justify-content: center;
   color: #ffe6e6;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 }

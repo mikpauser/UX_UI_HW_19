@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Module-18</title>
+    <title>Module-19</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/styleguide.css" rel="stylesheet">
@@ -12,15 +12,23 @@
   </head>
   <body>
     <header class="navigation">
-      <div class="inline-block logo"><img src="images/PagesLogo.png" style="max-width: 100px;"></div>
-      <nav class="inline-block"> 
-        <ul>
-          <li class="inline-block">About</li>
-          <li class="inline-block">Skills</li>
-          <li class="inline-block">Work</li>
-          <li class="inline-block">Contact</li>
-        </ul>
-      </nav>
+      <div id="menu">
+        <div id="menu-bar" class="hamburger" onclick="menuOnClick()">
+          <div id="bar1" class="bar line"></div>
+          <div id="bar2" class="bar line"></div>
+          <div id="bar3" class="bar line"></div>
+        </div>
+        <div class="inline-block logo"><img src="images/PagesLogo.png" style="max-width: 100px;"></div>
+        <nav class="inline-block nav" id="nav"> 
+          <ul class="nav-links">
+            <li class="inline-block"><a href="#">About</a></li>
+            <li class="inline-block"><a href="#">Skills</a></li>
+            <li class="inline-block"><a href="#">Work</a></li>
+            <li class="inline-block"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    <div class="menu-bg" id="menu-bg"></div>
     </header>
     <section class="heroImg">
       <div class="content">
@@ -105,5 +113,8 @@
         <li class="inline-block">Contact</li>
       </ul>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/index.js"></script>  
   </body>
 </html>
