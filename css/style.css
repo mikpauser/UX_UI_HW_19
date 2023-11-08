@@ -1,5 +1,7 @@
 /* For Fullscreen Desktop */
 @media (min-width:1440px) {
+  
+
 
 body {
   margin: 0;
@@ -745,6 +747,7 @@ footer li {
 
 @media only screen and (max-width: 939px) {
 
+  
   body {
     margin: 0;
     width: 100%;
@@ -760,30 +763,31 @@ footer li {
   }
 
   header {
-    height: 12vh;
+    height: 125px;
     background-color: var(--blue);
     box-shadow: 0 1px 0 var(--bg-white-gold);
   }
 
   .logo {
-    width: 10vh;
+    width: 20%;
     padding: 1%;
-    margin-left: 0 auto;
-    margin-top: 0 auto;
+    margin-left: 20px;
   }
 
 #menu {
   z-index: 2;
+  width: 100%;
   display: inline-flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 #menu-bar {
   width: 50px;
   height: 40px;
-  margin: 50px;
+  margin: 55px 50px;
   cursor: pointer;
-    
+  
 }
 
 .bar {
@@ -837,7 +841,6 @@ footer li {
 }
 
 .menu-bg .logo {
-  position: absolute;
   margin-top: auto;
   left: 0;
 }
@@ -846,7 +849,8 @@ footer li {
   z-index: 1;
   width: 0;
   height: 0;
-  margin: 30px 0 20px 20px;
+  right: 0;
+  margin: 50px;
   background: radial-gradient(circle, #d38498, #d38498);
   border-radius: 50%;
   transition: 0.3s ease;
@@ -873,9 +877,9 @@ footer li {
 }
 
 .change-bg {
-  width: 520px;
-  height: 460px;
-  transform: translate(-60%,-30%);
+  width: 3000px;
+  height: 200vh;
+  transform: translate(60%,-30%);
 }
 
 
